@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVMLibrary", "TVMLibrary\TVMLibrary.csproj", "{F25A0BCA-9A53-4FEB-8722-D34760360A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVMForms", "TVMForms\TVMForms.csproj", "{36EA9E8A-8616-45D7-92E7-5045FAC178CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVMTests", "TVMTests\TVMTests.csproj", "{C67AF429-C5A5-4010-AD20-6B502D0478D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25A0BCA-9A53-4FEB-8722-D34760360A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25A0BCA-9A53-4FEB-8722-D34760360A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25A0BCA-9A53-4FEB-8722-D34760360A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25A0BCA-9A53-4FEB-8722-D34760360A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EA9E8A-8616-45D7-92E7-5045FAC178CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EA9E8A-8616-45D7-92E7-5045FAC178CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EA9E8A-8616-45D7-92E7-5045FAC178CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EA9E8A-8616-45D7-92E7-5045FAC178CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67AF429-C5A5-4010-AD20-6B502D0478D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67AF429-C5A5-4010-AD20-6B502D0478D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67AF429-C5A5-4010-AD20-6B502D0478D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67AF429-C5A5-4010-AD20-6B502D0478D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FCCD8A1-8D29-4C17-892E-8175E48644A3}
+	EndGlobalSection
+EndGlobal
