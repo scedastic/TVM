@@ -11,7 +11,7 @@ namespace TVMTests
         [DataRow(100, 0.1, 2, 121)]
         [DataRow(-100, 0.1, 1, -110)]
         [DataRow(0, 0.1, 1, 0)]
-        [DataRow(321, 0.4, 3, 880.82)]
+        [DataRow(321, 0.4, 3, 880.824)]
         [DataTestMethod]
         public void SimplePVTest(double startValue, double rate, int periods, double endValue)
         {
@@ -27,7 +27,6 @@ namespace TVMTests
             target.EndValue = 121;
             target.Periods = 2;
             Assert.AreEqual(100, target.StartValue, 0.01);
-
         }
     }
 }
