@@ -10,10 +10,10 @@ namespace TVMLibrary
         /// Given the start value, interest rate and number ofcompounding periods
         /// Calculate the ending value.
         /// </summary>
-        private double _startValue;
-        private int _periods;
-        private double _rate;
-        private double _endValue;
+        protected double _startValue;
+        protected int _periods;
+        protected double _rate;
+        protected double _endValue;
 
         public double StartValue
         {
@@ -52,6 +52,6 @@ namespace TVMLibrary
             _periods = periods;
             Calculate();
         }
-        public void Calculate() => _endValue = _startValue * Math.Pow(1 + _rate, _periods);
+        public virtual void Calculate() => _endValue = _startValue * Math.Pow(1 + _rate, _periods);
     }
 }

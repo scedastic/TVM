@@ -11,10 +11,10 @@ namespace TVMLibrary
         /// after a number of compounding periods at a particular
         /// interest rate.
         /// </summary>
-        private double _startValue;
-        private int _periods;
-        private double _rate;
-        private double _endValue;
+        protected double _startValue;
+        protected int _periods;
+        protected double _rate;
+        protected double _endValue;
 
         public double StartValue 
         {
