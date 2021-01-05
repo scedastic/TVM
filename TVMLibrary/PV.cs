@@ -62,7 +62,7 @@ namespace TVMLibrary
             _periods = periods;
             Calculate();
         }
-        public void Calculate()
+        public virtual void Calculate()
         {
             _startValue = _endValue / Math.Pow(1 + _rate, _periods);
         }
